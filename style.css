@@ -8,6 +8,746 @@
 /* ---------- GLOBAL SETTINGS ---------- */
 
 * {
+/* =========================================
+   IKON INSTITUTE - MAIN STYLESHEET
+   Works with index.html and script.js
+========================================= */
+
+/* ---------- 1. Global Reset ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7fb;
+    color: #263238;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* ---------- 2. Header ---------- */
+
+header {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    width: 90%;
+    max-width: 1200px;
+    min-height: 82px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+/* Logo and institute name */
+
+.logo,
+.logo-container,
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img,
+.logo-container img,
+.brand img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
+
+.logo h1,
+.logo-container h1,
+.brand h1 {
+    color: #12336b;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.logo p,
+.logo-container p,
+.brand p {
+    color: #e09b17;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+
+/* ---------- 3. Navigation ---------- */
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 16px;
+    color: #263238;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: 0.25s ease;
+}
+
+nav a:hover {
+    background: #edf2fb;
+    color: #12336b;
+}
+
+/* Active page class controlled by script.js */
+
+nav a.active {
+    background: #12336b;
+    color: #ffffff;
+}
+
+nav a[aria-current="page"] {
+    background: #12336b;
+    color: #ffffff;
+}
+
+
+/* ---------- 4. Page Switching ---------- */
+
+/*
+   script.js adds/removes the active class.
+   Only the selected page will be visible.
+*/
+
+.page-content {
+    display: none;
+    min-height: 60vh;
+}
+
+.page-content.active {
+    display: block;
+}
+
+
+/* ---------- 5. Hero Section ---------- */
+
+.hero {
+    min-height: 480px;
+    padding: 80px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(10, 35, 78, 0.94),
+            rgba(18, 51, 107, 0.88)
+        );
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: clamp(34px, 5vw, 58px);
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.hero h1 span {
+    color: #ffc247;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto 28px;
+    font-size: 18px;
+    color: #eef3ff;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+/* ---------- 6. Buttons ---------- */
+
+.btn,
+button,
+input[type="submit"] {
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    background: #e5a21a;
+    color: #17233a;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.btn:hover,
+button:hover,
+input[type="submit"]:hover {
+    background: #ffc247;
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background: #e5a21a;
+    color: #17233a;
+}
+
+.btn-primary:hover {
+    background: #ffc247;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.btn-secondary:hover {
+    background: #ffffff;
+    color: #12336b;
+}
+
+
+/* ---------- 7. General Sections ---------- */
+
+section {
+    padding: 65px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    color: #12336b;
+    font-size: clamp(27px, 4vw, 38px);
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: #687789;
+    max-width: 700px;
+    margin: auto;
+}
+
+.section-heading {
+    color: #12336b;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.section-text {
+    color: #5d6877;
+    font-size: 16px;
+}
+
+
+/* ---------- 8. About Section ---------- */
+
+.about-section {
+    background: #ffffff;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-content h2 {
+    color: #12336b;
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+.about-content p {
+    color: #5d6877;
+    margin-bottom: 15px;
+}
+
+.about-image img {
+    width: 100%;
+    max-height: 360px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+/* ---------- 9. Course Cards ---------- */
+
+.courses-section {
+    background: #f5f7fb;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.course-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 28px 24px;
+    box-shadow: 0 5px 20px rgba(20, 45, 80, 0.07);
+    border: 1px solid #e8edf5;
+    transition: 0.25s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(20, 45, 80, 0.13);
+}
+
+.course-card h3 {
+    color: #12336b;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.course-card p {
+    color: #687789;
+    margin-bottom: 18px;
+}
+
+.course-card .btn {
+    margin-top: 8px;
+}
+
+
+/* ---------- 10. Events ---------- */
+
+.events-section {
+    background: #ffffff;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.event-card {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e8edf5;
+    box-shadow: 0 5px 20px rgba(20, 45, 80, 0.07);
+    transition: 0.25s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(20, 45, 80, 0.12);
+}
+
+.event-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.event-content {
+    padding: 22px;
+}
+
+.event-content h3 {
+    color: #12336b;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.event-content p {
+    color: #687789;
+}
+
+
+/* ---------- 11. Contact Page ---------- */
+
+.contact-section {
+    background: #f5f7fb;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.contact-info,
+.contact-form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(20, 45, 80, 0.07);
+}
+
+.contact-info h2,
+.contact-form h2 {
+    color: #12336b;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    color: #5d6877;
+    margin-bottom: 15px;
+    overflow-wrap: anywhere;
+}
+
+.contact-info strong {
+    color: #263238;
+}
+
+.contact-info a {
+    color: #12336b;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+/* ---------- 12. Form Fields ---------- */
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact-form label {
+    display: block;
+    color: #263238;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccd5e2;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #263238;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus {
+    border-color: #12336b;
+    box-shadow: 0 0 0 3px rgba(18, 51, 107, 0.1);
+}
+
+.contact-form textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+.contact-form button,
+.contact-form input[type="submit"] {
+    align-self: flex-start;
+    min-width: 150px;
+}
+
+
+/* ---------- 13. Map ---------- */
+
+.map-container {
+    width: 100%;
+    min-height: 300px;
+    margin-top: 25px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #e8edf5;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+
+/* ---------- 14. Call To Action ---------- */
+
+.cta-section {
+    background: #12336b;
+    color: #ffffff;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+.cta-section h2 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.cta-section p {
+    color: #e8eefb;
+    margin-bottom: 22px;
+}
+
+
+/* ---------- 15. Footer ---------- */
+
+footer {
+    background: #0b1e3d;
+    color: #ffffff;
+    padding: 35px 5% 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer p {
+    color: #d5deed;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: #ffc247;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 22px;
+    padding-top: 18px;
+}
+
+
+/* ---------- 16. Utility Classes ---------- */
+
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+/* ---------- 17. Tablet Responsive ---------- */
+
+@media (max-width: 900px) {
+
+    .header-container {
+        flex-direction: column;
+        padding: 15px 0;
+        gap: 12px;
+    }
+
+    nav {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .course-grid,
+    .events-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* ---------- 18. Mobile Responsive ---------- */
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 92%;
+    }
+
+    .header-container {
+        width: 94%;
+    }
+
+    .logo img,
+    .logo-container img,
+    .brand img {
+        width: 52px;
+        height: 52px;
+    }
+
+    .logo h1,
+    .logo-container h1,
+    .brand h1 {
+        font-size: 21px;
+    }
+
+    nav {
+        width: 100%;
+        gap: 5px;
+    }
+
+    nav a {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+    .hero {
+        min-height: 400px;
+        padding: 60px 20px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        max-width: 260px;
+        text-align: center;
+    }
+
+    section {
+        padding: 45px 0;
+    }
+
+    .course-grid,
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .course-card {
+        padding: 23px 20px;
+    }
+
+    .event-card img {
+        height: 190px;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 22px 18px;
+    }
+
+    .section-title {
+        margin-bottom: 28px;
+    }
+
+    .cta-section h2 {
+        font-size: 26px;
+    }
+
+    footer {
+        padding: 30px 18px 18px;
+    }
+
+}
+
+
+/* ---------- 19. Small Mobile ---------- */
+
+@media (max-width: 380px) {
+
+    .logo h1,
+    .logo-container h1,
+    .brand h1 {
+        font-size: 18px;
+    }
+
+    nav a {
+        padding: 7px 8px;
+        font-size: 12px;
+    }
+
+    .hero h1 {
+        font-size: 31px;
+    }
+
+}
     margin: 0;
     padding: 0;
     box-sizing: border-box;
