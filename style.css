@@ -1,0 +1,692 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IKON Institute | A Symbol of Success</title>
+
+    <meta name="description" content="IKON Institute Gaya provides professional computer education, IT training, accounting and digital skill development courses.">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <table width="100%">
+            <tr>
+                <td width="100">
+                    <img src="ikon.jpg" alt="IKON Institute Logo" width="90">
+                </td>
+
+                <td>
+                    <h1>IKON INSTITUTE</h1>
+                    <p><strong>A Symbol of Success</strong></p>
+                    <p>Computer Education & Professional Skill Development</p>
+                </td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <!-- MAIN NAVIGATION -->
+
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#courses">Courses</a> |
+            <a href="#events">Events</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <hr>
+
+    </header>
+
+
+    <!-- ================= HOME SECTION ================= -->
+
+    <main>
+
+        <section id="home">
+
+            <h2>Welcome to IKON Institute</h2>
+
+            <h3>Empowering Students Through Digital Education</h3>
+
+            <p>
+                Welcome to IKON Institute, your destination for quality
+                computer education, professional IT training, accounting
+                skills and career-oriented learning.
+            </p>
+
+            <p>
+                We believe in practical learning, technical knowledge
+                and professional development to help students succeed
+                in today's digital world.
+            </p>
+
+            <p>
+                <a href="#courses">Explore Our Courses</a> |
+                <a href="#contact">Enquire Now</a>
+            </p>
+
+        </section>
+
+        <hr>
+
+
+        <!-- ABOUT INSTITUTE -->
+
+        <section>
+
+            <h2>About IKON Institute</h2>
+
+            <p>
+                IKON Institute is a computer education and skill
+                development institute located in Gaya, Bihar.
+            </p>
+
+            <p>
+                We provide practical training in computer applications,
+                office productivity, accounting software, data analytics
+                and modern digital technologies.
+            </p>
+
+            <h3>Our Vision</h3>
+
+            <p>
+                To create a digitally empowered generation equipped
+                with knowledge, confidence and professional skills.
+            </p>
+
+            <h3>Our Mission</h3>
+
+            <p>
+                To provide accessible, practical and career-oriented
+                education that helps students achieve their academic
+                and professional goals.
+            </p>
+
+        </section>
+
+        <hr>
+
+
+        <!-- WHY CHOOSE US -->
+
+        <section>
+
+            <h2>Why Choose IKON Institute?</h2>
+
+            <ul>
+                <li>Practical Computer Training</li>
+                <li>Experienced Instructors</li>
+                <li>Career-Oriented Courses</li>
+                <li>Hands-on Projects and Assignments</li>
+                <li>Computer Lab Learning Environment</li>
+                <li>Modern Computer Applications</li>
+                <li>Student-Focused Learning Approach</li>
+            </ul>
+
+        </section>
+
+        <hr>
+
+
+        <!-- POPULAR COURSES -->
+
+        <section>
+
+            <h2>Our Popular Courses</h2>
+
+            <table border="1" cellpadding="10" width="100%">
+
+                <tr>
+                    <th>Course</th>
+                    <th>Course Overview</th>
+                </tr>
+
+                <tr>
+                    <td>DCA</td>
+                    <td>Diploma in Computer Applications</td>
+                </tr>
+
+                <tr>
+                    <td>ADCA</td>
+                    <td>Advanced Diploma in Computer Applications</td>
+                </tr>
+
+                <tr>
+                    <td>PGDAM</td>
+                    <td>Professional Computer Applications and Management</td>
+                </tr>
+
+                <tr>
+                    <td>Advance Excel</td>
+                    <td>Spreadsheet Automation and Data Analysis</td>
+                </tr>
+
+                <tr>
+                    <td>Power BI</td>
+                    <td>Data Visualization and Interactive Dashboards</td>
+                </tr>
+
+                <tr>
+                    <td>Tally Prime</td>
+                    <td>Accounting, GST and Inventory Management</td>
+                </tr>
+
+            </table>
+
+            <p>
+                <a href="#courses">View All Courses</a>
+            </p>
+
+        </section>
+
+        <hr>
+
+
+        <!-- HOME CALL TO ACTION -->
+
+        <section>
+
+            <h2>Start Your Learning Journey Today!</h2>
+
+            <p>
+                Build your computer skills, improve your knowledge
+                and take the next step toward your professional career.
+            </p>
+
+            <a href="#contact">Contact Us for Admission Enquiry</a>
+
+        </section>
+
+
+        <!-- ================= COURSES SECTION ================= -->
+
+        <hr>
+
+        <section id="courses">
+
+            <h2>Our Courses</h2>
+
+            <p>
+                Explore our professional computer education and
+                skill development programs designed to build
+                practical knowledge and career-ready skills.
+            </p>
+
+            <hr>
+
+            <h3>Computer Application Courses</h3>
+
+
+            <!-- DCA -->
+
+            <article>
+
+                <h3>1. DCA - Diploma in Computer Applications</h3>
+
+                <p>
+                    Learn essential computer applications, office
+                    productivity, internet usage and digital skills.
+                </p>
+
+                <h4>Course Contents</h4>
+
+                <ul>
+                    <li>Computer Fundamentals</li>
+                    <li>Operating System Basics</li>
+                    <li>MS Word</li>
+                    <li>MS Excel</li>
+                    <li>MS PowerPoint</li>
+                    <li>Internet and Email</li>
+                    <li>Introduction to AI Tools</li>
+                </ul>
+
+            </article>
+
+            <hr>
+
+
+            <!-- ADCA -->
+
+            <article>
+
+                <h3>2. ADCA - Advanced Diploma in Computer Applications</h3>
+
+                <p>
+                    Develop advanced computer application skills
+                    through practical training in office tools,
+                    accounting and digital technologies.
+                </p>
+
+                <h4>Course Contents</h4>
+
+                <ul>
+                    <li>Advanced MS Office</li>
+                    <li>Advanced Excel</li>
+                    <li>Tally Prime</li>
+                    <li>Computerized Accounting</li>
+                    <li>Internet Applications</li>
+                    <li>Digital Productivity Tools</li>
+                </ul>
+
+            </article>
+
+            <hr>
+
+
+            <!-- PGDAM -->
+
+            <article>
+
+                <h3>3. PGDAM</h3>
+
+                <p>
+                    Professional training focused on computer
+                    applications, business productivity and
+                    management-related digital skills.
+                </p>
+
+            </article>
+
+            <hr>
+
+
+            <h3>Professional Skill Courses</h3>
+
+
+            <!-- MS OFFICE -->
+
+            <article>
+
+                <h3>4. MS Office</h3>
+
+                <p>
+                    Learn Microsoft Word, Excel and PowerPoint
+                    for professional office work.
+                </p>
+
+                <ul>
+                    <li>Document Formatting</li>
+                    <li>Excel Formulas and Functions</li>
+                    <li>Charts and Reports</li>
+                    <li>Professional Presentations</li>
+                </ul>
+
+            </article>
+
+            <hr>
+
+
+            <!-- ADVANCE EXCEL -->
+
+            <article>
+
+                <h3>5. Advance Excel</h3>
+
+                <p>
+                    Master spreadsheet automation, data analysis
+                    and professional reporting.
+                </p>
+
+                <ul>
+                    <li>Advanced Formulas</li>
+                    <li>VLOOKUP, INDEX and MATCH</li>
+                    <li>Pivot Tables and Pivot Charts</li>
+                    <li>Data Validation</li>
+                    <li>Conditional Formatting</li>
+                    <li>Power Query</li>
+                    <li>Interactive Dashboards</li>
+                </ul>
+
+            </article>
+
+            <hr>
+
+
+            <!-- POWER BI -->
+
+            <article>
+
+                <h3>6. Power BI</h3>
+
+                <p>
+                    Learn to transform raw data into interactive
+                    reports and business dashboards.
+                </p>
+
+                <ul>
+                    <li>Data Import and Transformation</li>
+                    <li>Power Query</li>
+                    <li>Data Modeling</li>
+                    <li>DAX Fundamentals</li>
+                    <li>Interactive Visualizations</li>
+                    <li>Dashboard Development</li>
+                </ul>
+
+            </article>
+
+            <hr>
+
+
+            <!-- TALLY -->
+
+            <article>
+
+                <h3>7. Tally Prime</h3>
+
+                <p>
+                    Learn computerized accounting, inventory
+                    management and GST-related business operations.
+                </p>
+
+                <ul>
+                    <li>Accounting Fundamentals</li>
+                    <li>Company Creation</li>
+                    <li>Ledger and Group Creation</li>
+                    <li>Accounting Vouchers</li>
+                    <li>Inventory Management</li>
+                    <li>GST Accounting</li>
+                    <li>Financial Reports</li>
+                </ul>
+
+            </article>
+
+            <hr>
+
+
+            <h3>Admission Enquiry</h3>
+
+            <p>
+                Interested in joining one of our courses?
+                Contact our institute for course details,
+                admission information and available batches.
+            </p>
+
+            <a href="#contact">Enquire About Admission</a>
+
+        </section>
+
+
+        <!-- ================= EVENTS SECTION ================= -->
+
+        <hr>
+
+        <section id="events">
+
+            <h2>Events & Activities</h2>
+
+            <p>
+                At IKON Institute, learning goes beyond the classroom.
+                Our activities encourage students to develop practical
+                skills, creativity, confidence and teamwork.
+            </p>
+
+            <hr>
+
+
+            <article>
+
+                <h3>Computer Workshops</h3>
+
+                <p>
+                    Practical workshops designed to improve computer
+                    knowledge and digital skills through hands-on activities.
+                </p>
+
+            </article>
+
+            <hr>
+
+
+            <article>
+
+                <h3>Excel & Data Analytics Sessions</h3>
+
+                <p>
+                    Learning sessions focused on spreadsheet functions,
+                    data analysis, dashboards and reporting techniques.
+                </p>
+
+            </article>
+
+            <hr>
+
+
+            <article>
+
+                <h3>Career Guidance Seminars</h3>
+
+                <p>
+                    Guidance sessions that help students understand
+                    career opportunities, professional skills and
+                    future learning pathways.
+                </p>
+
+            </article>
+
+            <hr>
+
+
+            <article>
+
+                <h3>Student Project Exhibition</h3>
+
+                <p>
+                    An opportunity for students to present their
+                    computer projects, practical assignments and
+                    technical learning achievements.
+                </p>
+
+            </article>
+
+            <hr>
+
+
+            <article>
+
+                <h3>Digital Awareness Programs</h3>
+
+                <p>
+                    Educational activities covering digital literacy,
+                    internet safety, responsible technology usage
+                    and modern digital tools.
+                </p>
+
+            </article>
+
+            <hr>
+
+
+            <!-- EVENT GALLERY -->
+
+            <section>
+
+                <h3>Event Gallery</h3>
+
+                <p>
+                    Photos and highlights from institute events
+                    will be displayed here.
+                </p>
+
+                <p><em>Event photographs will be added soon.</em></p>
+
+                <!-- Add event images here -->
+
+            </section>
+
+        </section>
+
+
+        <!-- ================= CONTACT SECTION ================= -->
+
+        <hr>
+
+        <section id="contact">
+
+            <h2>Contact Us</h2>
+
+            <p>
+                Have questions about our courses, admission process
+                or training programs? We would be happy to assist you.
+            </p>
+
+            <hr>
+
+
+            <!-- INSTITUTE DETAILS -->
+
+            <h3>IKON Institute</h3>
+
+            <p><strong>Address:</strong></p>
+
+            <address>
+                Infront of Anugrah College Gate No. 1,<br>
+                Gaya, Bihar, India.
+            </address>
+
+            <p>
+                <strong>Phone:</strong>
+                Add Your Institute Contact Number
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                Add Your Official Institute Email
+            </p>
+
+            <p>
+                <strong>Working Hours:</strong>
+                Contact the institute for timings.
+            </p>
+
+            <hr>
+
+
+            <!-- ENQUIRY FORM -->
+
+            <h3>Course Enquiry Form</h3>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="phone">Mobile Number:</label><br>
+                    <input type="tel" id="phone" name="phone" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email">
+                </p>
+
+                <p>
+                    <label for="course">Select Course:</label><br>
+
+                    <select id="course" name="course" required>
+
+                        <option value="">Select a Course</option>
+
+                        <option value="DCA">DCA</option>
+                        <option value="ADCA">ADCA</option>
+                        <option value="PGDAM">PGDAM</option>
+                        <option value="MS Office">MS Office</option>
+                        <option value="Advance Excel">Advance Excel</option>
+                        <option value="Power BI">Power BI</option>
+                        <option value="Tally Prime">Tally Prime</option>
+                        <option value="Other">Other</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Your Message:</label><br>
+
+                    <textarea id="message" name="message"
+                              rows="5" cols="35"></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Submit Enquiry</button>
+                </p>
+
+            </form>
+
+            <p>
+                Note: Enquiry submission requires backend or
+                form service integration.
+            </p>
+
+            <hr>
+
+
+            <!-- GOOGLE MAPS -->
+
+            <h3>Visit Our Institute</h3>
+
+            <p>
+                We welcome students and parents to visit our institute
+                for course counselling and admission enquiries.
+            </p>
+
+            <p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Anugrah+College+Gaya+Bihar"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Find Us on Google Maps
+                </a>
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <hr>
+
+    <footer>
+
+        <h2>IKON INSTITUTE</h2>
+
+        <p><strong>A Symbol of Success</strong></p>
+
+        <p>
+            Computer Education & Professional Skill Development
+        </p>
+
+        <address>
+            Infront of Anugrah College Gate No. 1,<br>
+            Gaya, Bihar, India.
+        </address>
+
+        <hr>
+
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#courses">Courses</a> |
+            <a href="#events">Events</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <p>
+            &copy; 2026 IKON Institute. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
