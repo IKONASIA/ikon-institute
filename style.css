@@ -1,694 +1,660 @@
 
-<!DOCTYPE html>
-<html lang="en">
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>IKON Institute | A Symbol of Success</title>
-
-    <meta name="description" content="IKON Institute Gaya provides professional computer education, IT training, accounting and digital skill development courses.">
-
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <!-- ================= HEADER ================= -->
-
-    <header>
-
-        <table width="100%">
-            <tr>
-                <td width="100">
-                    <img src="ikon.jpg" alt="IKON Institute Logo" width="90">
-                </td>
-
-                <td>
-                    <h1>IKON INSTITUTE</h1>
-                    <p><strong>A Symbol of Success</strong></p>
-                    <p>Computer Education & Professional Skill Development</p>
-                </td>
-            </tr>
-        </table>
-
-        <hr>
-
-        <!-- MAIN NAVIGATION -->
-
-        <nav>
-            <a href="#home">Home</a> |
-            <a href="#courses">Courses</a> |
-            <a href="#events">Events</a> |
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <hr>
-
-    </header>
-
-
-    <!-- ================= HOME SECTION ================= -->
-
-    <main>
-
-        <section id="home">
-
-            <h2>Welcome to IKON Institute</h2>
-
-            <h3>Empowering Students Through Digital Education</h3>
-
-            <p>
-                Welcome to IKON Institute, your destination for quality
-                computer education, professional IT training, accounting
-                skills and career-oriented learning.
-            </p>
-
-            <p>
-                We believe in practical learning, technical knowledge
-                and professional development to help students succeed
-                in today's digital world.
-            </p>
-
-            <p>
-                <a href="#courses">Explore Our Courses</a> |
-                <a href="#contact">Enquire Now</a>
-            </p>
-
-        </section>
-
-        <hr>
-
-
-        <!-- ABOUT INSTITUTE -->
-
-        <section>
-
-            <h2>About IKON Institute</h2>
-
-            <p>
-                IKON Institute is a computer education and skill
-                development institute located in Gaya, Bihar.
-            </p>
-
-            <p>
-                We provide practical training in computer applications,
-                office productivity, accounting software, data analytics
-                and modern digital technologies.
-            </p>
-
-            <h3>Our Vision</h3>
-
-            <p>
-                To create a digitally empowered generation equipped
-                with knowledge, confidence and professional skills.
-            </p>
-
-            <h3>Our Mission</h3>
-
-            <p>
-                To provide accessible, practical and career-oriented
-                education that helps students achieve their academic
-                and professional goals.
-            </p>
-
-        </section>
-
-        <hr>
-
-
-        <!-- WHY CHOOSE US -->
-
-        <section>
-
-            <h2>Why Choose IKON Institute?</h2>
-
-            <ul>
-                <li>Practical Computer Training</li>
-                <li>Experienced Instructors</li>
-                <li>Career-Oriented Courses</li>
-                <li>Hands-on Projects and Assignments</li>
-                <li>Computer Lab Learning Environment</li>
-                <li>Modern Computer Applications</li>
-                <li>Student-Focused Learning Approach</li>
-            </ul>
-
-        </section>
-
-        <hr>
-
-
-        <!-- POPULAR COURSES -->
-
-        <section>
-
-            <h2>Our Popular Courses</h2>
-
-            <table border="1" cellpadding="10" width="100%">
-
-                <tr>
-                    <th>Course</th>
-                    <th>Course Overview</th>
-                </tr>
-
-                <tr>
-                    <td>DCA</td>
-                    <td>Diploma in Computer Applications</td>
-                </tr>
-
-                <tr>
-                    <td>ADCA</td>
-                    <td>Advanced Diploma in Computer Applications</td>
-                </tr>
-
-                <tr>
-                    <td>PGDAM</td>
-                    <td>Professional Computer Applications and Management</td>
-                </tr>
-
-                <tr>
-                    <td>Advance Excel</td>
-                    <td>Spreadsheet Automation and Data Analysis</td>
-                </tr>
-
-                <tr>
-                    <td>Power BI</td>
-                    <td>Data Visualization and Interactive Dashboards</td>
-                </tr>
-
-                <tr>
-                    <td>Tally Prime</td>
-                    <td>Accounting, GST and Inventory Management</td>
-                </tr>
-
-            </table>
-
-            <p>
-                <a href="#courses">View All Courses</a>
-            </p>
-
-        </section>
-
-        <hr>
-
-
-        <!-- HOME CALL TO ACTION -->
-
-        <section>
-
-            <h2>Start Your Learning Journey Today!</h2>
-
-            <p>
-                Build your computer skills, improve your knowledge
-                and take the next step toward your professional career.
-            </p>
-
-            <a href="#contact">Contact Us for Admission Enquiry</a>
-
-        </section>
-
-
-        <!-- ================= COURSES SECTION ================= -->
-
-        <hr>
-
-        <section id="courses">
-
-            <h2>Our Courses</h2>
-
-            <p>
-                Explore our professional computer education and
-                skill development programs designed to build
-                practical knowledge and career-ready skills.
-            </p>
-
-            <hr>
-
-            <h3>Computer Application Courses</h3>
-
-
-            <!-- DCA -->
-
-            <article>
-
-                <h3>1. DCA - Diploma in Computer Applications</h3>
-
-                <p>
-                    Learn essential computer applications, office
-                    productivity, internet usage and digital skills.
-                </p>
-
-                <h4>Course Contents</h4>
-
-                <ul>
-                    <li>Computer Fundamentals</li>
-                    <li>Operating System Basics</li>
-                    <li>MS Word</li>
-                    <li>MS Excel</li>
-                    <li>MS PowerPoint</li>
-                    <li>Internet and Email</li>
-                    <li>Introduction to AI Tools</li>
-                </ul>
-
-            </article>
-
-            <hr>
-
-
-            <!-- ADCA -->
-
-            <article>
-
-                <h3>2. ADCA - Advanced Diploma in Computer Applications</h3>
-
-                <p>
-                    Develop advanced computer application skills
-                    through practical training in office tools,
-                    accounting and digital technologies.
-                </p>
-
-                <h4>Course Contents</h4>
-
-                <ul>
-                    <li>Advanced MS Office</li>
-                    <li>Advanced Excel</li>
-                    <li>Tally Prime</li>
-                    <li>Computerized Accounting</li>
-                    <li>Internet Applications</li>
-                    <li>Digital Productivity Tools</li>
-                </ul>
-
-            </article>
-
-            <hr>
-
-
-            <!-- PGDAM -->
-
-            <article>
-
-                <h3>3. PGDAM</h3>
-
-                <p>
-                    Professional training focused on computer
-                    applications, business productivity and
-                    management-related digital skills.
-                </p>
-
-            </article>
-
-            <hr>
-
-
-            <h3>Professional Skill Courses</h3>
-
-
-            <!-- MS OFFICE -->
-
-            <article>
-
-                <h3>4. MS Office</h3>
-
-                <p>
-                    Learn Microsoft Word, Excel and PowerPoint
-                    for professional office work.
-                </p>
-
-                <ul>
-                    <li>Document Formatting</li>
-                    <li>Excel Formulas and Functions</li>
-                    <li>Charts and Reports</li>
-                    <li>Professional Presentations</li>
-                </ul>
-
-            </article>
-
-            <hr>
-
-
-            <!-- ADVANCE EXCEL -->
-
-            <article>
-
-                <h3>5. Advance Excel</h3>
-
-                <p>
-                    Master spreadsheet automation, data analysis
-                    and professional reporting.
-                </p>
-
-                <ul>
-                    <li>Advanced Formulas</li>
-                    <li>VLOOKUP, INDEX and MATCH</li>
-                    <li>Pivot Tables and Pivot Charts</li>
-                    <li>Data Validation</li>
-                    <li>Conditional Formatting</li>
-                    <li>Power Query</li>
-                    <li>Interactive Dashboards</li>
-                </ul>
-
-            </article>
-
-            <hr>
-
-
-            <!-- POWER BI -->
-
-            <article>
-
-                <h3>6. Power BI</h3>
-
-                <p>
-                    Learn to transform raw data into interactive
-                    reports and business dashboards.
-                </p>
-
-                <ul>
-                    <li>Data Import and Transformation</li>
-                    <li>Power Query</li>
-                    <li>Data Modeling</li>
-                    <li>DAX Fundamentals</li>
-                    <li>Interactive Visualizations</li>
-                    <li>Dashboard Development</li>
-                </ul>
-
-            </article>
-
-            <hr>
-
-
-            <!-- TALLY -->
-
-            <article>
-
-                <h3>7. Tally Prime</h3>
-
-                <p>
-                    Learn computerized accounting, inventory
-                    management and GST-related business operations.
-                </p>
-
-                <ul>
-                    <li>Accounting Fundamentals</li>
-                    <li>Company Creation</li>
-                    <li>Ledger and Group Creation</li>
-                    <li>Accounting Vouchers</li>
-                    <li>Inventory Management</li>
-                    <li>GST Accounting</li>
-                    <li>Financial Reports</li>
-                </ul>
-
-            </article>
-
-            <hr>
-
-
-            <h3>Admission Enquiry</h3>
-
-            <p>
-                Interested in joining one of our courses?
-                Contact our institute for course details,
-                admission information and available batches.
-            </p>
-
-            <a href="#contact">Enquire About Admission</a>
-
-        </section>
-
-
-        <!-- ================= EVENTS SECTION ================= -->
-
-        <hr>
-
-        <section id="events">
-
-            <h2>Events & Activities</h2>
-
-            <p>
-                At IKON Institute, learning goes beyond the classroom.
-                Our activities encourage students to develop practical
-                skills, creativity, confidence and teamwork.
-            </p>
-
-            <hr>
-
-
-            <article>
-
-                <h3>Computer Workshops</h3>
-
-                <p>
-                    Practical workshops designed to improve computer
-                    knowledge and digital skills through hands-on activities.
-                </p>
-
-            </article>
-
-            <hr>
-
-
-            <article>
-
-                <h3>Excel & Data Analytics Sessions</h3>
-
-                <p>
-                    Learning sessions focused on spreadsheet functions,
-                    data analysis, dashboards and reporting techniques.
-                </p>
-
-            </article>
-
-            <hr>
-
-
-            <article>
-
-                <h3>Career Guidance Seminars</h3>
-
-                <p>
-                    Guidance sessions that help students understand
-                    career opportunities, professional skills and
-                    future learning pathways.
-                </p>
-
-            </article>
-
-            <hr>
-
-
-            <article>
-
-                <h3>Student Project Exhibition</h3>
-
-                <p>
-                    An opportunity for students to present their
-                    computer projects, practical assignments and
-                    technical learning achievements.
-                </p>
-
-            </article>
-
-            <hr>
-
-
-            <article>
-
-                <h3>Digital Awareness Programs</h3>
-
-                <p>
-                    Educational activities covering digital literacy,
-                    internet safety, responsible technology usage
-                    and modern digital tools.
-                </p>
-
-            </article>
-
-            <hr>
-
-
-            <!-- EVENT GALLERY -->
-
-            <section>
-
-                <h3>Event Gallery</h3>
-
-                <p>
-                    Photos and highlights from institute events
-                    will be displayed here.
-                </p>
-
-                <p><em>Event photographs will be added soon.</em></p>
-
-                <!-- Add event images here -->
-
-            </section>
-
-        </section>
-
-
-        <!-- ================= CONTACT SECTION ================= -->
-
-        <hr>
-
-        <section id="contact">
-
-            <h2>Contact Us</h2>
-
-            <p>
-                Have questions about our courses, admission process
-                or training programs? We would be happy to assist you.
-            </p>
-
-            <hr>
-
-
-            <!-- INSTITUTE DETAILS -->
-
-            <h3>IKON Institute</h3>
-
-            <p><strong>Address:</strong></p>
-
-            <address>
-                Infront of Anugrah College Gate No. 1,<br>
-                Gaya, Bihar, India.
-            </address>
-
-            <p>
-                <strong>Phone:</strong>
-                Add Your Institute Contact Number
-            </p>
-
-            <p>
-                <strong>Email:</strong>
-                Add Your Official Institute Email
-            </p>
-
-            <p>
-                <strong>Working Hours:</strong>
-                Contact the institute for timings.
-            </p>
-
-            <hr>
-
-
-            <!-- ENQUIRY FORM -->
-
-            <h3>Course Enquiry Form</h3>
-
-            <form action="#" method="post">
-
-                <p>
-                    <label for="name">Full Name:</label><br>
-                    <input type="text" id="name" name="name" required>
-                </p>
-
-                <p>
-                    <label for="phone">Mobile Number:</label><br>
-                    <input type="tel" id="phone" name="phone" required>
-                </p>
-
-                <p>
-                    <label for="email">Email Address:</label><br>
-                    <input type="email" id="email" name="email">
-                </p>
-
-                <p>
-                    <label for="course">Select Course:</label><br>
-
-                    <select id="course" name="course" required>
-
-                        <option value="">Select a Course</option>
-
-                        <option value="DCA">DCA</option>
-                        <option value="ADCA">ADCA</option>
-                        <option value="PGDAM">PGDAM</option>
-                        <option value="MS Office">MS Office</option>
-                        <option value="Advance Excel">Advance Excel</option>
-                        <option value="Power BI">Power BI</option>
-                        <option value="Tally Prime">Tally Prime</option>
-                        <option value="Other">Other</option>
-
-                    </select>
-                </p>
-
-                <p>
-                    <label for="message">Your Message:</label><br>
-
-                    <textarea id="message" name="message"
-                              rows="5" cols="35"></textarea>
-                </p>
-
-                <p>
-                    <button type="submit">Submit Enquiry</button>
-                </p>
-
-            </form>
-
-            <p>
-                Note: Enquiry submission requires backend or
-                form service integration.
-            </p>
-
-            <hr>
-
-
-            <!-- GOOGLE MAPS -->
-
-            <h3>Visit Our Institute</h3>
-
-            <p>
-                We welcome students and parents to visit our institute
-                for course counselling and admission enquiries.
-            </p>
-
-            <p>
-                <a href="https://www.google.com/maps/search/?api=1&query=Anugrah+College+Gaya+Bihar"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    Find Us on Google Maps
-                </a>
-            </p>
-
-        </section>
-
-    </main>
-
-
-    <!-- ================= FOOTER ================= -->
-
-    <hr>
-
-    <footer>
-
-        <h2>IKON INSTITUTE</h2>
-
-        <p><strong>A Symbol of Success</strong></p>
-
-        <p>
-            Computer Education & Professional Skill Development
-        </p>
-
-        <address>
-            Infront of Anugrah College Gate No. 1,<br>
-            Gaya, Bihar, India.
-        </address>
-
-        <hr>
-
-        <nav>
-            <a href="#home">Home</a> |
-            <a href="#courses">Courses</a> |
-            <a href="#events">Events</a> |
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <p>
-            &copy; 2026 IKON Institute. All Rights Reserved.
-        </p>
-
-    </footer>
-
-</body>
-</html>
+/* =========================================
+   IKON INSTITUTE - PROFESSIONAL WEBSITE
+   Main Stylesheet
+========================================= */
+
+
+/* ---------- GLOBAL SETTINGS ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fb;
+    color: #263247;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #1746a2;
+    transition: 0.3s ease;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.3;
+    color: #102347;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+h4 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e4e9f1;
+    margin: 35px 0;
+}
+
+
+/* ---------- HEADER ---------- */
+
+header {
+    background-color: #ffffff;
+    padding: 15px 7%;
+    border-bottom: 1px solid #e8edf5;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 3px 15px rgba(15, 35, 75, 0.06);
+}
+
+header table {
+    max-width: 1200px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+header table td {
+    vertical-align: middle;
+}
+
+header img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+header h1 {
+    font-size: 27px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #12336b;
+    margin-bottom: 2px;
+}
+
+header p {
+    margin: 0;
+    font-size: 13px;
+    color: #68758b;
+}
+
+header p strong {
+    color: #d49b27;
+    letter-spacing: 1px;
+}
+
+
+/* ---------- NAVIGATION ---------- */
+
+header hr {
+    display: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+header nav {
+    max-width: 1200px;
+    margin: 12px auto 0;
+}
+
+nav a {
+    display: inline-block;
+    color: #263247;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 9px 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #12336b;
+    color: #ffffff;
+}
+
+
+/* ---------- MAIN CONTENT ---------- */
+
+main {
+    max-width: 1200px;
+    margin: 35px auto;
+    padding: 0 25px;
+}
+
+main > section {
+    background-color: #ffffff;
+    padding: 45px;
+    margin-bottom: 28px;
+    border-radius: 14px;
+    box-shadow: 0 5px 25px rgba(20, 40, 80, 0.045);
+}
+
+main section > h2 {
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+main section > h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 65px;
+    height: 4px;
+    background-color: #d9a441;
+    border-radius: 5px;
+}
+
+main section p {
+    color: #596579;
+}
+
+
+/* ---------- HOME HERO SECTION ---------- */
+
+#home {
+    background-color: #12336b;
+    color: #ffffff;
+    padding: 75px 55px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+#home h2 {
+    color: #ffffff;
+    font-size: 42px;
+    max-width: 750px;
+}
+
+#home h2::after {
+    background-color: #e5b34f;
+}
+
+#home h3 {
+    color: #f2c96f;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#home p {
+    color: #e1e9f7;
+    max-width: 750px;
+    font-size: 17px;
+}
+
+#home a {
+    display: inline-block;
+    background-color: #e3ae42;
+    color: #102347;
+    font-weight: 700;
+    padding: 12px 25px;
+    margin: 10px 8px 0 0;
+    border-radius: 6px;
+}
+
+#home a:hover {
+    background-color: #ffffff;
+    color: #12336b;
+    transform: translateY(-2px);
+}
+
+
+/* ---------- ABOUT SECTION ---------- */
+
+#home h3:not(:first-of-type) {
+    color: #12336b;
+}
+
+#home h3:not(:first-of-type) {
+    margin-top: 25px;
+}
+
+
+/* ---------- LISTS ---------- */
+
+main ul {
+    padding-left: 25px;
+    margin: 15px 0 20px;
+}
+
+main li {
+    padding: 5px 0;
+    color: #536176;
+}
+
+main li::marker {
+    color: #d5a03a;
+}
+
+
+/* ---------- TABLES ---------- */
+
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+    border: 1px solid #e1e7f0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+main table th {
+    background-color: #12336b;
+    color: #ffffff;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+}
+
+main table td {
+    padding: 14px 15px;
+    border-bottom: 1px solid #e8edf4;
+    color: #526075;
+}
+
+main table tr:nth-child(even) {
+    background-color: #f7f9fc;
+}
+
+main table tr:last-child td {
+    border-bottom: none;
+}
+
+
+/* ---------- COURSE SECTION ---------- */
+
+#courses > article {
+    background-color: #f8faff;
+    border: 1px solid #e6ebf4;
+    border-left: 5px solid #d9a441;
+    border-radius: 10px;
+    padding: 25px 30px;
+    margin: 22px 0;
+    transition: 0.3s ease;
+}
+
+#courses > article:hover {
+    border-left-color: #12336b;
+    box-shadow: 0 8px 25px rgba(20, 40, 80, 0.08);
+    transform: translateY(-3px);
+}
+
+#courses article h3 {
+    color: #12336b;
+}
+
+#courses article h4 {
+    color: #b17b19;
+    margin-top: 20px;
+}
+
+
+/* ---------- EVENTS SECTION ---------- */
+
+#events > article {
+    background-color: #f8faff;
+    border: 1px solid #e7ecf4;
+    border-radius: 10px;
+    padding: 25px 30px;
+    margin: 20px 0;
+    transition: 0.3s ease;
+}
+
+#events > article:hover {
+    background-color: #ffffff;
+    border-color: #d9a441;
+    box-shadow: 0 8px 25px rgba(20, 40, 80, 0.07);
+    transform: translateY(-3px);
+}
+
+#events article h3 {
+    color: #12336b;
+}
+
+
+/* ---------- CONTACT SECTION ---------- */
+
+#contact address {
+    font-style: normal;
+    color: #596579;
+    background-color: #f7f9fc;
+    border-left: 4px solid #d9a441;
+    padding: 18px 22px;
+    border-radius: 5px;
+    margin: 10px 0 20px;
+}
+
+#contact strong {
+    color: #12336b;
+}
+
+
+/* ---------- FORM ---------- */
+
+#contact form {
+    max-width: 700px;
+    background-color: #f8faff;
+    padding: 30px;
+    border: 1px solid #e5eaf2;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+#contact form p {
+    margin-bottom: 20px;
+}
+
+#contact label {
+    display: inline-block;
+    font-weight: 600;
+    color: #263b5d;
+    margin-bottom: 7px;
+}
+
+#contact input,
+#contact select,
+#contact textarea {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid #d5dce8;
+    border-radius: 7px;
+    background-color: #ffffff;
+    color: #263247;
+    font-family: inherit;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+#contact input:focus,
+#contact select:focus,
+#contact textarea:focus {
+    border-color: #1746a2;
+    box-shadow: 0 0 0 3px rgba(23, 70, 162, 0.1);
+}
+
+#contact textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#contact button {
+    background-color: #12336b;
+    color: #ffffff;
+    border: none;
+    padding: 13px 30px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #d9a441;
+    color: #102347;
+    transform: translateY(-2px);
+}
+
+
+/* ---------- GENERAL BUTTON LINKS ---------- */
+
+main a:not(nav a) {
+    color: #1746a2;
+    font-weight: 600;
+}
+
+main a:not(nav a):hover {
+    color: #d49b27;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background-color: #0d2348;
+    color: #dce5f4;
+    text-align: center;
+    padding: 45px 20px 25px;
+}
+
+footer h2 {
+    color: #ffffff;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+
+footer p {
+    color: #c3d0e4;
+    margin-bottom: 12px;
+}
+
+footer address {
+    font-style: normal;
+    color: #c3d0e4;
+    margin: 15px 0;
+}
+
+footer nav {
+    margin: 25px 0;
+}
+
+footer nav a {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+footer nav a:hover {
+    background-color: #d9a441;
+    color: #102347;
+}
+
+footer p:last-child {
+    border-top: 1px solid #304568;
+    padding-top: 20px;
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+
+/* ---------- RESPONSIVE TABLET ---------- */
+
+@media screen and (max-width: 900px) {
+
+    main {
+        margin: 25px auto;
+        padding: 0 18px;
+    }
+
+    main > section {
+        padding: 35px;
+    }
+
+    #home {
+        padding: 55px 35px;
+    }
+
+    #home h2 {
+        font-size: 35px;
+    }
+
+}
+
+
+/* ---------- RESPONSIVE MOBILE ---------- */
+
+@media screen and (max-width: 600px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    header {
+        padding: 12px 15px;
+        position: relative;
+    }
+
+    header img {
+        width: 60px;
+        height: 60px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    header p {
+        font-size: 11px;
+    }
+
+    header nav {
+        gap: 5px;
+        margin-top: 15px;
+    }
+
+    nav a {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    main {
+        margin: 18px auto;
+        padding: 0 12px;
+    }
+
+    main > section {
+        padding: 25px 20px;
+        margin-bottom: 18px;
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    #home {
+        padding: 45px 25px;
+    }
+
+    #home h2 {
+        font-size: 31px;
+    }
+
+    #home h3 {
+        font-size: 21px;
+    }
+
+    #home p {
+        font-size: 15px;
+    }
+
+    #home a {
+        padding: 11px 17px;
+        font-size: 14px;
+    }
+
+    #courses > article,
+    #events > article {
+        padding: 20px;
+    }
+
+    main table {
+        font-size: 13px;
+    }
+
+    main table th,
+    main table td {
+        padding: 10px 8px;
+    }
+
+    #contact form {
+        padding: 20px;
+    }
+
+    footer {
+        padding: 35px 15px 20px;
+    }
+
+    footer nav {
+        gap: 4px;
+    }
+
+    footer nav a {
+        padding: 8px;
+    }
+
+}
+
+
+/* ---------- ACCESSIBILITY ---------- */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #e3ae42;
+    outline-offset: 3px;
+}
+
+
+/* ---------- REDUCED MOTION ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+    }
+
+}
